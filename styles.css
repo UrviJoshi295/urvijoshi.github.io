@@ -1,0 +1,31 @@
+
+.rounded-circle {
+    border-radius: 50%; /* Makes the image circular */
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    object-fit: cover; /* Ensures the image covers the circle */
+  }
+  .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff; /* Green border */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: #fff; /* Green background on hover */
+    color: #212529; /* White text on hover */
+  }
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-cards {
+        flex-direction: column;
+    }
+}
